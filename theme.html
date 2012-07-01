@@ -16,7 +16,8 @@
 	</head>
   <body>
     <div class="wrapper">
-      <div class="header">
+
+        <header>
         <h1><a href="/">{Title}</a></h1>
             <p style="display: none; {block:HasPages}display: block;{/block:HasPages}{block:AskEnabled}display: block;{/block:AskEnabled}{block:SubmissionsEnabled}display: block;{/block:SubmissionsEnabled}">
             {block:HasPages}
@@ -26,18 +27,19 @@
             {/block:HasPages}
             </p>
         <p>{Description}</p>
-      </div>
-      <div class="main">
+        </header>
+
+        <section>
         {block:SearchPage}
-        <div class="post">
+        <article>
           <div class="datetime">
             {lang:SearchResultCount results}
           </div>
           {lang:Search results for SearchQuery 2}</h2>
-        </div>
+        </article>
         {/block:SearchPage}
         {block:Posts}
-        <div class="post">
+        <article>
           <div class="datetime">
             {block:Date}{block:NewDayDate}{Month} {DayOfMonth}, {Year} at {/block:NewDayDate}{12Hour}:{Minutes}{AmPm}<br />
             {block:IfDisqusShortname}<a href="{Permalink}#disqus_thread"></a><br />{block:IfDisqusShortname}{/block:Date}
@@ -90,23 +92,23 @@
           {/block:Lines}
           </p>
         {/block:Conversation}
-        </div>
+        </article>
         {/block:Posts}
 
         {block:PermalinkPage}
         {block:PostNotes}
-        <div class="post">
+        <article>
           <h3>{lang:Notes}</h3>
           <p>{PostNotes}</p>
-        </div>
+        </article>
         {/block:PostNotes}
         
         {block:IfDisqusShortname}
-        <div class="post disqus">
+        <article class="disqus">
             <div id="disqus_thread"></div>
             <script type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/embed.js"></script>
             <noscript><a href="http://{text:Disqus Shortname}.disqus.com/?url=ref">{lang:View the discussion thread}</a></noscript>
-        </div>
+        </article>
         {/block:IfDisqusShortname}
         {/block:PermalinkPage}
 
@@ -139,13 +141,14 @@
         {/block:PreviousPost}
         {/block:PermalinkPagination}
 
-      </div>
-      <div class="post">
+      </section>
+
+      <footer>
           <form action="/search" method="get">
             <a href="/">{lang:Home}</a>&nbsp;&nbsp;<a href="/archive/">{lang:Archive}</a>&nbsp;&nbsp;<a href="/mobile">{lang:Mobile}</a>&nbsp;&nbsp;<a href="{RSS}">{lang:RSS}</a>&nbsp;&nbsp;<input type="text" name="q" value="{SearchQuery}"/>&nbsp;&nbsp;<input type="submit" value="{lang:Search}"/>
           </form>
           <p>Themed by <a href="http://langer.tumblr.com/">Langer</a>. Powered by <a href="http://www.tumblr.com/">Tumblr</a>. Customized by <a href="http://www.tumblr.com/">Typostrophe</a>.</p>
-      </div>
+      </footer>
     </div>
     
     {block:IfDisqusShortname}

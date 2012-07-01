@@ -75,17 +75,22 @@ input {
 	text-decoration: none !important;
 	}
 
-.header {
+header {
 	margin-bottom: 20px;
 	}
+
+section {
+	margin: 50px 0px;
+	}
+
+article,
+footer {
+	padding-bottom: 30px;
+	} 
 
 .wrapper {
 	margin: auto;
 	width: 520px;
-	}
-
-.main {
-	margin: 50px 0px;
 	}
 
 .datetime {
@@ -124,9 +129,6 @@ input {
 	color: #666;
 	}
 
-.post {
-	padding-bottom: 30px;
-	} 
 
 .short_quote {
 	color: #666;
