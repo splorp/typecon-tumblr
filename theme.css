@@ -1,0 +1,190 @@
+/*
+	TypeCon for Tumblr CSS
+*/
+
+body, html {
+	background: #fff;
+	border: 0px;
+	color:#333;
+	font-family: Georgia, 'Times New Roman', Times;
+	font-size: 16px;
+	line-height: 150%;
+	margin: 0px;
+	padding: 0px;
+	}
+
+pre {
+	font-size: 10px;
+	}
+
+a {
+	background: #f9fc7e;
+	color:#333;
+	padding: 1px 2px;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #666;
+	background: none;
+	}
+
+h1 {
+	color:#666;
+	font-weight: normal;
+	margin-bottom:0px;
+	}
+
+h2 {
+	color:#666;
+	font-weight: normal;
+	margin-bottom:0px;
+	}
+
+h3 {
+	color:#666;
+	font-weight: normal !important;
+	margin-bottom:0px;
+	}
+
+h4 {
+	color:#666;
+	font-weight: normal;
+	margin-bottom:0px;
+	}
+
+img {
+	background: #fff !important;
+	border: 1px solid #999;
+	margin: 0px;
+	padding: 5px;
+	}
+
+img a {
+	background: #fff !important;
+	margin: 0px;
+	text-decoration: none !important;
+	}
+
+input {
+	border: 1px solid #999;
+	}
+
+.photo a, .disqus a {
+	background: #fff !important;
+	text-decoration: none !important;
+	}
+
+.header {
+	margin-bottom: 20px;
+	}
+
+.wrapper {
+	margin: auto;
+	width: 520px;
+	}
+
+.main {
+	margin: 50px 0px;
+	}
+
+.datetime {
+	border-right: 1px solid #999;
+	clear: both;
+	color: #666;
+	float:left;
+	font-size: 12px;
+	line-height: 150%;
+	margin-left:-250px;
+	padding-right: 25px;
+	position:relative;
+	text-align: right;
+	width: 200px;
+	}
+
+.navleft {
+	float: left;
+	font-size: 12px;
+	position: relative;
+	}
+
+.navright {
+	float: right;
+	font-size: 12px;
+	position: relative;
+	}
+
+.navcenter {
+	font-size: 12px;
+	text-align:center;
+	width: 500px;
+	}
+
+.datetime a {
+	color: #666;
+	}
+
+.post {
+	padding-bottom: 30px;
+	} 
+
+.short_quote {
+	color: #666;
+	font-size: 62px;
+	line-height: 110%;
+	margin: 0px;
+	padding: 0px;
+	}
+
+.medium_quote {
+	color: #666;
+	font-size: 36px;
+	line-height: 115%;
+	margin: 0px;
+	padding: 0px;
+	}
+
+.long_quote {
+	color: #666;
+	font-size: 24px;
+	line-height: 130%;
+	margin: 0px;
+	padding: 0px;
+	}
+
+a .notes {
+	background: none;
+	text-decoration: none !important;
+	}
+
+.notes a {
+	background: none;
+	text-decoration: none !important;
+	}
+
+img .notes {
+	border: 1px solid #999;
+	margin: 0px;
+	padding: 3px;
+	}
+
+.notes img {
+	border: 1px solid #999;
+	margin: 0px;
+	padding: 3px;
+	}
+
+.disqus {
+	color: #333 !important;
+	font-family: Georgia, 'Times New Roman', Times !important;
+	line-height: 150% !important;
+	size: 16px;
+	}
+
+.regular_post_body img {
+	max-width: 100%;
+	}
+
+.search_query {
+	font-style: italic;
+	}
