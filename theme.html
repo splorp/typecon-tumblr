@@ -42,7 +42,7 @@
 		{block:Posts}
 		<article>
 			<div class="datetime">
-				{block:Date}{block:NewDayDate}{Month} {DayOfMonth}, {Year} at {/block:NewDayDate}{12Hour}:{Minutes}{AmPm}<br />
+				{block:Date}{Month} {DayOfMonth}, {Year} at {12Hour}:{Minutes}{AmPm}<br />
 				{block:IfDisqusShortname}<a href="{Permalink}#disqus_thread"></a><br />{block:IfDisqusShortname}{/block:Date}
 				{block:Pagination}
 				<a href="{Permalink}">{NoteCountWithLabel}</a><br />
