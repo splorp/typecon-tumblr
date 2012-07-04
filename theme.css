@@ -4,13 +4,13 @@
 
 body, html {
 	background: #fff;
-	border: 0px;
+	border: 0;
 	color: #333;
 	font-family: Georgia, 'Times New Roman', Times;
 	font-size: 16px;
 	line-height: 150%;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	}
 
 pre {
@@ -32,37 +32,37 @@ a:hover {
 h1 {
 	color: #666;
 	font-weight: normal;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	}
 
 h2 {
 	color: #666;
 	font-weight: normal;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	}
 
 h3 {
 	color: #666;
 	font-weight: normal !important;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	}
 
 h4 {
 	color: #666;
 	font-weight: normal;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	}
 
 img {
 	background: #fff !important;
 	border: 1px solid #999;
-	margin: 0px;
+	margin: 0;
 	padding: 5px;
 	}
 
 img a {
 	background: #fff !important;
-	margin: 0px;
+	margin: 0;
 	text-decoration: none !important;
 	}
 
@@ -134,24 +134,24 @@ footer {
 	color: #666;
 	font-size: 62px;
 	line-height: 110%;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	}
 
 .medium_quote {
 	color: #666;
 	font-size: 36px;
 	line-height: 115%;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	}
 
 .long_quote {
 	color: #666;
 	font-size: 24px;
 	line-height: 130%;
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	}
 
 a .notes {
@@ -166,13 +166,13 @@ a .notes {
 
 img .notes {
 	border: 1px solid #999;
-	margin: 0px;
+	margin: 0;
 	padding: 3px;
 	}
 
 .notes img {
 	border: 1px solid #999;
-	margin: 0px;
+	margin: 0;
 	padding: 3px;
 	}
 
