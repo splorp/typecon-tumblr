@@ -76,10 +76,11 @@ input {
 	}
 
 header {
+	margin: 20px 0;
 	}
 
 section {
-	margin: 50px 0px;
+	margin: 50px 0;
 	}
 
 article,
@@ -96,12 +97,12 @@ footer {
 	border-right: 1px solid #999;
 	clear: both;
 	color: #666;
-	float:left;
+	float: left;
 	font-size: 12px;
 	line-height: 150%;
-	margin-left:-250px;
+	margin-left: -250px;
 	padding-right: 25px;
-	position:relative;
+	position: relative;
 	text-align: right;
 	width: 200px;
 	}
@@ -120,7 +121,7 @@ footer {
 
 .navcenter {
 	font-size: 12px;
-	text-align:center;
+	text-align: center;
 	width: 500px;
 	}
 
