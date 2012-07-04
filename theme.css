@@ -5,7 +5,7 @@
 body, html {
 	background: #fff;
 	border: 0px;
-	color:#333;
+	color: #333;
 	font-family: Georgia, 'Times New Roman', Times;
 	font-size: 16px;
 	line-height: 150%;
@@ -19,7 +19,7 @@ pre {
 
 a {
 	background: #f9fc7e;
-	color:#333;
+	color: #333;
 	padding: 1px 2px;
 	text-decoration: none;
 	}
@@ -30,27 +30,27 @@ a:hover {
 	}
 
 h1 {
-	color:#666;
+	color: #666;
 	font-weight: normal;
-	margin-bottom:0px;
+	margin-bottom: 0px;
 	}
 
 h2 {
-	color:#666;
+	color: #666;
 	font-weight: normal;
-	margin-bottom:0px;
+	margin-bottom: 0px;
 	}
 
 h3 {
-	color:#666;
+	color: #666;
 	font-weight: normal !important;
-	margin-bottom:0px;
+	margin-bottom: 0px;
 	}
 
 h4 {
-	color:#666;
+	color: #666;
 	font-weight: normal;
-	margin-bottom:0px;
+	margin-bottom: 0px;
 	}
 
 img {
