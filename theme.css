@@ -90,18 +90,17 @@ footer {
 .wrapper {
 	background: #FFFFFF;
 	margin: auto;
+	padding: 20px 40px;
 	width: 520px;
 	}
 
 .datetime {
-	border-right: 1px solid #999;
 	clear: both;
 	color: #666;
 	float: left;
 	font-size: 12px;
 	line-height: 150%;
-	margin-left: -250px;
-	padding-right: 25px;
+	margin-left: -270px;
 	position: relative;
 	text-align: right;
 	width: 200px;
