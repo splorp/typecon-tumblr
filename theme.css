@@ -3,14 +3,15 @@
 */
 
 body, html {
-	background: #fff;
+	background: #27292a;
 	border: 0;
-	color: #333;
-	font-family: Georgia, 'Times New Roman', Times;
+	color: #333333;
+	font-family: "ARS-Maquette-Web-Pro-1","Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
+	font-style: normal;
 	line-height: 150%;
 	margin: 0;
-	padding: 0;
+	padding: 24px 0;
 	}
 
 pre {
@@ -18,15 +19,13 @@ pre {
 	}
 
 a {
-	background: #f9fc7e;
-	color: #333;
-	padding: 1px 2px;
+	color: #D5AE22;
 	text-decoration: none;
 	}
 
 a:hover {
-	color: #666;
-	background: none;
+	color: #334455;
+	text-decoration: underline;
 	}
 
 h1 {
@@ -89,6 +88,7 @@ footer {
 	} 
 
 .wrapper {
+	background: #FFFFFF;
 	margin: auto;
 	width: 520px;
 	}
