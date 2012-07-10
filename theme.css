@@ -5,7 +5,7 @@
 body, html {
 	background: #27292a;
 	border: 0;
-	color: #333333;
+	color: #333;
 	font-family: "ARS-Maquette-Web-Pro-1","Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	font-style: normal;
@@ -56,7 +56,7 @@ img {
 	}
 
 img a {
-	background: #fff !important;
+	background: #FFF !important;
 	margin: 0;
 	text-decoration: none !important;
 	}
@@ -66,7 +66,7 @@ input {
 	}
 
 .photo a, .disqus a {
-	background: #fff !important;
+	background: #FFF !important;
 	text-decoration: none !important;
 	}
 
@@ -84,7 +84,7 @@ footer {
 	} 
 
 .wrapper {
-	background: #FFFFFF;
+	background: #FFF;
 	margin: auto;
 	padding: 20px 40px;
 	width: 520px;
