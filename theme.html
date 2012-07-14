@@ -19,7 +19,7 @@
 	<div class="wrapper">
 
 		<header>
-			<h1><a href="/">{Title}</a></h1>
+			<h1><a href="/" title="Get back to the front">{Title}</a></h1>
 				<p style="display: none; {block:HasPages}display: block;{/block:HasPages}{block:AskEnabled}display: block;{/block:AskEnabled}{block:SubmissionsEnabled}display: block;{/block:SubmissionsEnabled}">
 			{block:HasPages}
 				{block:Pages}<a href="{URL}">{Label}</a>&nbsp;&nbsp;&nbsp;{/block:Pages}
@@ -57,7 +57,7 @@
 			</div>
 		{block:Regular}
 			{block:Title}<h2>{Title}</h2>{/block:Title}
-			<p style="regular_post_body">{Body}</p>
+			{Body}
 		{/block:Regular}
 
 		{block:Photo}
@@ -66,7 +66,7 @@
 		{/block:Photo}
 
 		{block:Quote}
-			<p><span class="{Length}_quote">{Quote}</span></p>
+			<h2>{Quote}</h2>
 			{block:Source}<p>&mdash;&nbsp;{Source}</p>{/block:Source}
 		{/block:Quote}
 
@@ -81,7 +81,7 @@
 		{/block:Audio}
 
 		{block:Link}
-			<h2><a href="{URL}" {Target}>{Name}</a>&nbsp;&rarr;</h2>
+			<h2><a href="{URL}" {Target}>{Name}</a></h2>
 			{block:Description}<p>{Description}</p>{/block:Description}
 		{/block:Link}
 

@@ -7,9 +7,9 @@ body, html {
 	border: 0;
 	color: #333;
 	font-family: "ARS-Maquette-Web-Pro-1","Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	font-style: normal;
-	line-height: 150%;
+	line-height: 1.5;
 	margin: 0;
 	padding: 24px 0;
 	}
@@ -30,17 +30,21 @@ a:hover {
 
 h1,
 h2 {
+	font-size: 2.5em;
 	font-weight: bold;
+	line-height: 1.25;
 	margin-bottom: 0;
 	}
 
 h3 {
 	font-weight: normal !important;
+	line-height: 1.5;
 	margin-bottom: 0;
 	}
 
 h4 {
 	font-weight: normal;
+	line-height: 1.25;
 	margin-bottom: 0;
 	}
 
@@ -91,6 +95,7 @@ footer {
 	float: left;
 	font-size: 12px;
 	line-height: 150%;
+	margin-top: 3px;
 	margin-left: -270px;
 	position: relative;
 	text-align: right;
