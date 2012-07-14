@@ -28,6 +28,10 @@ a:hover {
 	text-decoration: underline;
 	}
 
+p img {
+	max-width: 100%;
+	}
+
 h1,
 h2 {
 	font-size: 2.5em;
@@ -124,28 +128,6 @@ footer {
 	color: #666;
 	}
 
-
-.short_quote {
-	font-size: 62px;
-	line-height: 110%;
-	margin: 0;
-	padding: 0;
-	}
-
-.medium_quote {
-	font-size: 36px;
-	line-height: 115%;
-	margin: 0;
-	padding: 0;
-	}
-
-.long_quote {
-	font-size: 24px;
-	line-height: 130%;
-	margin: 0;
-	padding: 0;
-	}
-
 a .notes {
 	background: none;
 	text-decoration: none !important;
@@ -175,9 +157,6 @@ img .notes {
 	line-height: 150% !important;
 	}
 
-.regular_post_body img {
-	max-width: 100%;
-	}
 
 .search_query {
 	font-style: italic;
