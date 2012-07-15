@@ -42,18 +42,11 @@
 		{block:Posts}
 		<article>
 			<div class="datetime">
-				{block:Date}{Month} {DayOfMonth}, {Year} at {12Hour}:{Minutes}{AmPm}<br />
+				<a href="{Permalink}">{block:Date}{Month} {DayOfMonth}, {Year} at {12Hour}:{Minutes}{AmPm}</a><br />
 				{block:IfDisqusShortname}<a href="{Permalink}#disqus_thread"></a><br />{block:IfDisqusShortname}{/block:Date}
-				{block:Pagination}
-				<a href="{Permalink}">{NoteCountWithLabel}</a><br />
-				{/block:Pagination}
-				{block:SearchPage}
-				<a href="{Permalink}">{NoteCountWithLabel}</a><br />
-				{/block:SearchPage}
-				{block:PermalinkPage}
-				<a href="/">{lang:Home}</a><br />
-				{/block:PermalinkPage}
+				{NoteCountWithLabel}<br />
 				{block:RebloggedFrom}{lang:Reblogged from ReblogRootName 2}<br />{/block:RebloggedFrom}
+				{block:PermalinkPage}<a href="/">{lang:Back}</a><br />{/block:PermalinkPage}
 			</div>
 		{block:Regular}
 			{block:Title}<h2>{Title}</h2>{/block:Title}
