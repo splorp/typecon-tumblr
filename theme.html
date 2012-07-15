@@ -22,9 +22,9 @@
 			<h1><a href="/" title="Get back to the front">{Title}</a></h1>
 				<p>
 			{block:HasPages}
-				{block:Pages}<a href="{URL}">{Label}</a>&nbsp;&nbsp;&nbsp;{/block:Pages}
-				{block:AskEnabled}<a href="/ask">{AskLabel}</a>&nbsp;&nbsp;&nbsp;{/block:AskEnabled}
-				{block:SubmissionsEnabled}<a href="/submit">{SubmitLabel}</a>{/block:SubmissionsEnabled}
+				{block:Pages}<a href="{URL}" title="{lang:Permalink for this post}">{Label}</a>&nbsp;&nbsp;&nbsp;{/block:Pages}
+				{block:AskEnabled}<a href="/ask" title="Ask us a question">{AskLabel}</a>&nbsp;&nbsp;&nbsp;{/block:AskEnabled}
+				{block:SubmissionsEnabled}<a href="/submit" title="Contribute your tidbits">{SubmitLabel}</a>{/block:SubmissionsEnabled}
 			{/block:HasPages}
 				</p>
 			<p>{Description}</p>
@@ -46,7 +46,7 @@
 				{block:IfDisqusShortname}<a href="{Permalink}#disqus_thread"></a><br />{block:IfDisqusShortname}{/block:Date}
 				{NoteCountWithLabel}<br />
 				{block:RebloggedFrom}{lang:Reblogged from ReblogRootName 2}<br />{/block:RebloggedFrom}
-				{block:PermalinkPage}<a href="/">{lang:Back}</a><br />{/block:PermalinkPage}
+				{block:PermalinkPage}<a href="/" title="Get back to the front">{lang:Back}</a><br />{/block:PermalinkPage}
 			</div>
 		{block:Regular}
 			{block:Title}<h2>{Title}</h2>{/block:Title}
@@ -54,7 +54,7 @@
 		{/block:Regular}
 
 		{block:Photo}
-			<span class="photo">{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}" title="{PhotoAlt}">{LinkCloseTag}</span>
+			<span class="photo">{LinkOpenTag}<img src="{PhotoURL-500}" alt="{PhotoAlt}">{LinkCloseTag}</span>
 			<p>{Caption}</p>
 		{/block:Photo}
 
@@ -74,7 +74,7 @@
 		{/block:Audio}
 
 		{block:Link}
-			<h2><a href="{URL}" {Target}>{Name}</a></h2>
+			<h2><a href="{URL}" {Target} title="Link to {Name}">{Name}</a></h2>
 			{block:Description}<p>{Description}</p>{/block:Description}
 		{/block:Link}
 
@@ -138,12 +138,15 @@
 		</section>
 
 		<footer>
-			<p><a href="/">{lang:Home}</a>&nbsp;&nbsp;<a href="/archive/">{lang:Archive}</a>&nbsp;&nbsp;<a href="/mobile">{lang:Mobile}</a>&nbsp;&nbsp;<a href="{RSS}">{lang:RSS}</a></p>
+			<a href="/" title="Get back to the front">{lang:Home}</a>&nbsp;&nbsp;&nbsp;
+			<a href="/archive/" title="{lang:Browse the archive}">{lang:Archive}</a>&nbsp;&nbsp;&nbsp;
+			<a href="/mobile" title="View the mobile version">{lang:Mobile}</a>&nbsp;&nbsp;&nbsp;
+			<a href="{RSS}" title="{lang:Subscribe via RSS}">{lang:Subscribe}</a></p>
 			<form action="/search" method="get">
 				<input type="text" name="q" value="{SearchQuery}"/>
 				<input type="submit" value="Search"/>
 			</form>
-			<p>Powered by <a href="http://www.tumblr.com/">Tumblr</a>. Themed by <a href="http://www.typostrophe.com/">Typostrophe</a>.</p>
+			<p>Powered by <a href="http://www.tumblr.com/" title="The effortless way to share anything">Tumblr</a>&nbsp;&nbsp;&nbsp;Themed by <a href="http://www.typostrophe.com/"  title="A typographic concern">Typostrophe</a></p>
 		</footer>
 	</div>
 	
