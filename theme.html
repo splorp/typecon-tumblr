@@ -21,7 +21,7 @@
 			<h1><a href="/" title="Get back to the front">{Title}</a></h1>
 				<p>
 			{block:HasPages}
-				{block:Pages}<a href="{URL}" title="{lang:Permalink for this post}">{Label}</a>&nbsp;&nbsp;&nbsp;{/block:Pages}
+				{block:Pages}<a href="{URL}">{Label}</a>&nbsp;&nbsp;&nbsp;{/block:Pages}
 				{block:AskEnabled}<a href="/ask" title="Ask us a question">{AskLabel}</a>&nbsp;&nbsp;&nbsp;{/block:AskEnabled}
 				{block:SubmissionsEnabled}<a href="/submit" title="Contribute your tidbits">{SubmitLabel}</a>{/block:SubmissionsEnabled}
 			{/block:HasPages}
@@ -41,7 +41,7 @@
 		{block:Posts}
 		<article>
 			<div class="datetime">
-				<a href="{Permalink}">{block:Date}{Month} {DayOfMonth}, {Year} at {12Hour}:{Minutes}{AmPm}</a><br />
+				<a href="{Permalink}" title="{lang:Permalink for this post}">{block:Date}{Month} {DayOfMonth}, {Year} at {12Hour}:{Minutes}{AmPm}</a><br />
 				{block:IfDisqusShortname}<a href="{Permalink}#disqus_thread"></a><br />{block:IfDisqusShortname}{/block:Date}
 				{NoteCountWithLabel}<br />
 				{block:RebloggedFrom}{lang:Reblogged from ReblogRootName 2}<br />{/block:RebloggedFrom}
@@ -140,13 +140,14 @@
 			<p>
 			<a href="/" title="Get back to the front">{lang:Home}</a>&nbsp;&nbsp;&nbsp;
 			{block:HasPages}
-				{block:Pages}<a href="{URL}" title="{lang:Permalink for this post}">{Label}</a>&nbsp;&nbsp;&nbsp;{/block:Pages}
+				{block:Pages}<a href="{URL}">{Label}</a>&nbsp;&nbsp;&nbsp;{/block:Pages}
 				{block:AskEnabled}<a href="/ask" title="Ask us a question">{AskLabel}</a>&nbsp;&nbsp;&nbsp;{/block:AskEnabled}
-				{block:SubmissionsEnabled}<a href="/submit" title="Contribute your tidbits">{SubmitLabel}</a>{/block:SubmissionsEnabled}
+				{block:SubmissionsEnabled}<a href="/submit" title="Contribute your tidbits">{SubmitLabel}</a>&nbsp;&nbsp;&nbsp;{/block:SubmissionsEnabled}
 			{/block:HasPages}
 			<a href="/archive/" title="{lang:Browse the archive}">{lang:Archive}</a>&nbsp;&nbsp;&nbsp;
 			<a href="/mobile" title="View the mobile version">{lang:Mobile}</a>&nbsp;&nbsp;&nbsp;
-			<a href="{RSS}" title="{lang:Subscribe via RSS}">{lang:Subscribe}</a></p>
+			<a href="{RSS}" title="{lang:Subscribe via RSS}">{lang:Subscribe}</a>
+			</p>
 			<form action="/search" method="get">
 				<input type="text" name="q" value="{SearchQuery}"/>
 				<input type="submit" value="Search"/>
