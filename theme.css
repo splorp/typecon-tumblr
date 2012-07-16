@@ -6,7 +6,7 @@ body, html {
 	background: #27292a;
 	border: 0;
 	color: #333;
-	font-family: "ARS-Maquette-Web-Pro-1","Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "ars-maquette-web-1","Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	line-height: 1.5;
@@ -38,7 +38,8 @@ h2 {
 	font-weight: bold;
 	line-height: 1.25;
 	margin-bottom: 0;
-	}
+ 	text-rendering: optimizeLegibility;
+ 	}
 
 h3 {
 	font-weight: normal !important;
@@ -154,7 +155,7 @@ img .notes {
 
 .disqus {
 	color: #333 !important;
-	font-family: "ARS-Maquette-Web-Pro-1","Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "ars-maquette-web-1","Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 150% !important;
 	}
