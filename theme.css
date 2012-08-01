@@ -75,6 +75,8 @@ input {
 	}
 
 header {
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 20px;
 	margin: 20px 0;
 	}
 
@@ -87,9 +89,13 @@ section {
 	margin: 50px 0;
 	}
 
-article,
+article {
+	border-bottom: 1px solid #DDD;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+	} 
+
 footer {
-	padding-bottom: 30px;
 	} 
 
 .wrapper {
