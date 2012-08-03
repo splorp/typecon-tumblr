@@ -49,8 +49,9 @@
 		<article>
 			<div class="datetime">
 				<a href="{Permalink}" title="{lang:Permalink for this post}">{block:Date}{Month} {DayOfMonth}, {Year} at {12Hour}:{Minutes}{AmPm}</a><br />
+				Posted by <a href="{PostAuthorURL}" title="{PostAuthorTitle}">{PostAuthorName}</a><br />
 				{block:IfDisqusShortname}<a href="{Permalink}#disqus_thread"></a><br />{block:IfDisqusShortname}{/block:Date}
-				{NoteCountWithLabel}<br />
+				<a href="{Permalink}" title="{lang:Permalink for this post}">{NoteCountWithLabel}</a><br />
 				{block:RebloggedFrom}{lang:Reblogged from ReblogRootName 2}<br />{/block:RebloggedFrom}
 				{block:PermalinkPage}<a href="/" title="Get back to the front">{lang:Back}</a><br />{/block:PermalinkPage}
 			</div>
