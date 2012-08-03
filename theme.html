@@ -115,31 +115,29 @@
 
 
 		{block:Pagination}
-		{block:NextPage}
-		<div class="navleft">
-			&larr;&nbsp;<a href="{NextPage}">{lang:Newer}</a>
-		</div>
-		{/block:NextPage}
-		{block:PreviousPage}
-		<div class="navright">
-			<a href="{PreviousPage}">{lang:Older}</a>&nbsp;&rarr;
-		</div>
-		{/block:PreviousPage}
-		<div class="navcenter">
-			{CurrentPage}
-		</div>
+			{block:PreviousPage}
+			<div class="navleft">
+				<a href="{PreviousPage}">{lang:Older}</a>
+			</div>
+			{/block:PreviousPage}
+			{block:NextPage}
+			<div class="navright">
+				<a href="{NextPage}">{lang:Newer}</a>
+			</div>
+			{/block:NextPage}
 		{/block:Pagination}
+
 		{block:PermalinkPagination}
-		{block:NextPost}
-		<div class="navleft">
-			&larr;&nbsp;<a href="{NextPost}">{lang:Newer}</a>
-		</div>
-		{/block:NextPost}
-		{block:PreviousPost}
-		<div class="navright">
-			<a href="{PreviousPost}">{lang:Older}</a>&nbsp;&rarr;
-		</div>
-		{/block:PreviousPost}
+			{block:PreviousPost}
+			<div class="navleft">
+				<a href="{PreviousPost}">{lang:Older}</a>
+			</div>
+			{/block:PreviousPost}
+			{block:NextPost}
+			<div class="navright">
+				<a href="{NextPost}">{lang:Newer}</a>
+			</div>
+			{/block:NextPost}
 		{/block:PermalinkPagination}
 
 		</section>
