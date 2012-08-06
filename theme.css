@@ -98,6 +98,10 @@ article {
 footer {
 	} 
 
+.quote {
+	text-indent: -20px;
+	}
+
 .wrapper {
 	background: #FFF;
 	margin: auto;
