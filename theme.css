@@ -174,3 +174,6 @@ img .notes {
 .search_query {
 	font-style: italic;
 	}
+.disqus a {
+	background: transparent !important;
+	}
