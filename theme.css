@@ -3,7 +3,8 @@
 */
 
 body, html {
-	background: #27292a;
+/*	background: #27292a;     2012 */
+	background: #21201e;
 	border: 0;
 	color: #333;
 	font-family: "ars-maquette-web-1","Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -19,7 +20,8 @@ pre {
 	}
 
 a {
-	color: #D5AE22;
+/*	color: #D5AE22;     2012 */
+	color: #4aa8a4;
 	text-decoration: none;
 	}
 
