@@ -3,8 +3,10 @@
 */
 
 body, html {
-/*	background: #27292a;     2012 */
-	background: #21201e;
+/*	background: #27292a;	2012
+	background: #21201e;    2013
+*/
+	background: #1e1e1e;
 	border: 0;
 	color: #333;
 	font-family: "ars-maquette-web-1","Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -20,13 +22,17 @@ pre {
 	}
 
 a {
-/*	color: #D5AE22;     2012 */
-	color: #4aa8a4;
+/*	color: #D5AE22;    2012
+	color: #4aa8a4;    2013
+*/
+	color: #cc0000;
 	text-decoration: none;
 	}
 
 a:hover {
-	color: #334455;
+/*  color: #334455;     2013
+*/
+    color: #1e1e1e;
 	text-decoration: underline;
 	}
 
