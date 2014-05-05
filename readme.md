@@ -28,6 +28,10 @@ The TypeCon for Tumblr theme is absolutely free and conveniently licensed under 
 
 ## Version History
 
+### 0.1.1 — The “Easy To Commit” Release
+
++ Removed superfluous `text-indent` from quote posts
+
 ### 0.1.0 — The “Easy To Commit” Release
 
 + Initial tinkering
