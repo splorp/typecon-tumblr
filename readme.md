@@ -28,9 +28,11 @@ The TypeCon for Tumblr theme is absolutely free and conveniently licensed under 
 
 ## Version History
 
-### 0.1.1 — The “Easy To Commit” Release
+### 0.1.1 — The “Baby Steps” Release
 
 + Removed superfluous `text-indent` from quote posts
++ Delineated page navigation from the footer
++ Adjusted blockquote margins
 
 ### 0.1.0 — The “Easy To Commit” Release
 

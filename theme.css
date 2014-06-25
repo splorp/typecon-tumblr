@@ -4,8 +4,9 @@
 */
 
 body, html {
-/*	background: #27292a;	2012
-	background: #21201e;    2013
+/*
+	background: #27292a; (2012)
+    background: #21201e; (2013)
 */
 	background: #1e1e1e;
 	border: 0;
@@ -24,7 +25,7 @@ pre {
 
 a {
 /*	color: #D5AE22;    2012
-	color: #4aa8a4;    2013
+    color: #4aa8a4;    2013
 */
 	color: #cc0000;
 	text-decoration: none;
