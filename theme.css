@@ -5,9 +5,11 @@
 
 body, html {
 /*
+	background: #1e1e1e; (Default)
 	background: #27292a; (2012)
-    background: #21201e; (2013)
+	background: #21201e; (2013)
 	background: #1e1e1e; (2014)
+	background: #1e1e1e; (2015)
 */
 	background: #1e1e1e;
 	border: 0;
@@ -26,20 +28,25 @@ pre {
 
 a {
 /*
-	color: #D5AE22; (2012)
-    color: #4aa8a4; (2013)
+	color: #999999; (Default)
+	color: #d5ae22; (2012)
+	color: #4aa8a4; (2013)
 	color: #cc0000; (2014)
+	color: #bdd630; (2015)
 */
-	color: #999999;
+	color: #bdd630;
 	text-decoration: none;
 	}
 
 a:hover {
 /*  
+	color: #1e1e1e; (Default)
+	color: #334455; (2012)
 	color: #334455; (2013)
-    color: #1e1e1e; (2014)
+	color: #1e1e1e; (2014)
+	color: #1e1e1e; (2015)
 */
-    color: #1e1e1e;
+	color: #1e1e1e;
 	text-decoration: underline;
 	}
 
@@ -53,8 +60,8 @@ h2 {
 	font-weight: bold;
 	line-height: 1.25;
 	margin-bottom: 0;
- 	text-rendering: optimizeLegibility;
- 	}
+	text-rendering: optimizeLegibility;
+	}
 
 h3 {
 	font-weight: normal !important;
@@ -69,13 +76,13 @@ h4 {
 	}
 
 blockquote {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    }
+	margin-top: 0px;
+	margin-bottom: 0px;
+	}
 
 h2 blockquote p {
-    margin-top: 0px;
-    }
+	margin-top: 0px;
+	}
 
 img {
 	background: #fff !important;
