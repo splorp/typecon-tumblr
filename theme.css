@@ -6,6 +6,7 @@
 body, html {
 /*
 	background: #1e1e1e; (Default)
+	background: #1e1e1e; (2011)
 	background: #27292a; (2012)
 	background: #21201e; (2013)
 	background: #1e1e1e; (2014)
@@ -13,7 +14,7 @@ body, html {
 */
 	background: #1e1e1e;
 	border: 0;
-	color: #333;
+	color: #333333;
 	font-family: "ars-maquette-web-1","Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-style: normal;
@@ -29,6 +30,7 @@ pre {
 a {
 /*
 	color: #999999; (Default)
+	color: #ffc600; (2011)
 	color: #d5ae22; (2012)
 	color: #4aa8a4; (2013)
 	color: #cc0000; (2014)
@@ -41,6 +43,7 @@ a {
 a:hover {
 /*  
 	color: #1e1e1e; (Default)
+	color: #1e1e1e; (2011)
 	color: #334455; (2012)
 	color: #334455; (2013)
 	color: #1e1e1e; (2014)
