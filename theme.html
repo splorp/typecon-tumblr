@@ -154,10 +154,11 @@
 			<a href="/mobile" title="View the mobile version">{lang:Mobile}</a>&nbsp;&nbsp;&nbsp;
 			<a href="{RSS}" title="{lang:Subscribe via RSS}">{lang:Subscribe}</a>
 			</p>
-			<form action="/search" method="get">
-				<input type="text" name="q" value="{SearchQuery}"/>
-				<input type="submit" value="Search"/>
+
+			<form action="/search" method="get" id="search">
+				<input type="text" class="search-field" name="q" id="q" placeholder="Search TypeCon Snippets" value="" autocomplete="off">
 			</form>
+
 			<p>Powered by <a href="http://www.tumblr.com/" title="The effortless way to share anything">Tumblr</a>&nbsp;&nbsp;&nbsp;Themed by <a href="http://www.typostrophe.com/" title="A typographic concern">Typostrophe</a></p>
 		</footer>
 	</div>
