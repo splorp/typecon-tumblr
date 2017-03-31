@@ -12,6 +12,7 @@ body, html {
 	background: #1e1e1e; (2014)
 	background: #1e1e1e; (2015)
 	background: #1e1e1e; (2016)
+	background: #1e1e1e; (2017)
 */
 	background: #1e1e1e;
 	border: 0;
@@ -37,8 +38,9 @@ a {
 	color: #cc0000; (2014)
 	color: #90a324; (2015)
 	color: #00e100; (2016)
+	color: #ee1717; (2017)
 */
-	color: #999999;
+	color: #ee1717;
 	text-decoration: none;
 	}
 
@@ -51,6 +53,7 @@ a:hover {
 	color: #1e1e1e; (2014)
 	color: #1e1e1e; (2015)
 	color: #1e1e1e; (2016)
+	color: #1e1e1e; (2017)
 */
 	color: #1e1e1e;
 	text-decoration: underline;
