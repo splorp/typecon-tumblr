@@ -13,8 +13,9 @@ body, html {
 	background: #1e1e1e; (2015)
 	background: #1e1e1e; (2016)
 	background: #1e1e1e; (2017)
+	background: #220044; (2018)
 */
-	background: #1e1e1e;
+	background: #220044;
 	border: 0;
 	color: #333333;
 	font-family: "ars-maquette-web-1","Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -39,8 +40,9 @@ a {
 	color: #90a324; (2015)
 	color: #00e100; (2016)
 	color: #ee1717; (2017)
+	color: #775599; (2018)
 */
-	color: #ee1717;
+	color: #775599;
 	text-decoration: none;
 	}
 
@@ -54,8 +56,9 @@ a:hover {
 	color: #1e1e1e; (2015)
 	color: #1e1e1e; (2016)
 	color: #1e1e1e; (2017)
+	color: #333333; (2018)
 */
-	color: #1e1e1e;
+	color: #333333;
 	text-decoration: underline;
 	}
 
