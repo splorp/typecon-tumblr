@@ -14,8 +14,9 @@ body, html {
 	background: #1e1e1e; (2016)
 	background: #1e1e1e; (2017)
 	background: #220044; (2018)
+	background: #311146; (2019)
 */
-	background: #220044;
+	background: #311146;
 	border: 0;
 	color: #333333;
 	font-family: "ars-maquette-web-1","Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -41,8 +42,9 @@ a {
 	color: #00e100; (2016)
 	color: #ee1717; (2017)
 	color: #775599; (2018)
+	color: #E54151; (2019)
 */
-	color: #775599;
+	color: #E54151;
 	text-decoration: none;
 	}
 
@@ -57,6 +59,7 @@ a:hover {
 	color: #1e1e1e; (2016)
 	color: #1e1e1e; (2017)
 	color: #333333; (2018)
+	color: #333333; (2019)
 */
 	color: #333333;
 	text-decoration: underline;
@@ -165,7 +168,7 @@ footer {
 
 .datetime {
 	clear: both;
-	color: #666;
+	color: #CCC;
 	float: left;
 	font-size: 12px;
 	line-height: 150%;
@@ -192,7 +195,7 @@ footer {
 	}
 
 .datetime a {
-	color: #666;
+	color: #CCC;
 	}
 
 a .notes {
