@@ -23,17 +23,18 @@
 		<header>
 			<a href="/" title="{Title}"><img src="{PortraitURL-40}" alt="{Title}" /></a>
 			<h1><a href="/" title="Get back to the front">{Title}</a></h1>
-			<p>
-			{block:HasPages}
-				{block:Pages}<a href="{URL}">{Label}</a>&nbsp;&nbsp;&nbsp;{/block:Pages}
-				{block:AskEnabled}<a href="/ask" title="Ask us a question">{AskLabel}</a>&nbsp;&nbsp;&nbsp;{/block:AskEnabled}
-				{block:SubmissionsEnabled}<a href="/submit" title="Contribute your tidbits">{SubmitLabel}</a>&nbsp;&nbsp;&nbsp;{/block:SubmissionsEnabled}
-			{/block:HasPages}
-			<a href="/archive/" title="{lang:Browse the archive}">{lang:Archive}</a>&nbsp;&nbsp;&nbsp;
-			<a href="/mobile" title="View the mobile version">{lang:Mobile}</a>&nbsp;&nbsp;&nbsp;
-			<a href="{RSS}" title="{lang:Subscribe via RSS}">{lang:Subscribe}</a>
-			</p>
 			<p>{Description}</p>
+			<ul>
+				<li><a href="/" title="Get back to the front">{lang:Home}</a></li>
+			{block:HasPages}
+				{block:Pages}<li><a href="{URL}">{Label}</a></li>{/block:Pages}
+				{block:AskEnabled}<li><a href="/ask" title="Ask us a question">{AskLabel}</a></li>{/block:AskEnabled}
+				{block:SubmissionsEnabled}<li><a href="/submit" title="Contribute your tidbits">{SubmitLabel}</a></li>{/block:SubmissionsEnabled}
+			{/block:HasPages}
+				<li><a href="/archive/" title="{lang:Browse the archive}">{lang:Archive}</a></li>
+				<li><a href="/mobile" title="View the mobile version">{lang:Mobile}</a></li>
+				<li><a href="{RSS}" title="{lang:Subscribe via RSS}">{lang:Subscribe}</a></li>
+			</ul>
 		</header>
 
 		<section>
@@ -143,17 +144,17 @@
 		</section>
 
 		<footer>
-			<p>
-			<a href="/" title="Get back to the front">{lang:Home}</a>&nbsp;&nbsp;&nbsp;
+			<ul>
+				<li><a href="/" title="Get back to the front">{lang:Home}</a></li>
 			{block:HasPages}
-				{block:Pages}<a href="{URL}">{Label}</a>&nbsp;&nbsp;&nbsp;{/block:Pages}
-				{block:AskEnabled}<a href="/ask" title="Ask us a question">{AskLabel}</a>&nbsp;&nbsp;&nbsp;{/block:AskEnabled}
-				{block:SubmissionsEnabled}<a href="/submit" title="Contribute your tidbits">{SubmitLabel}</a>&nbsp;&nbsp;&nbsp;{/block:SubmissionsEnabled}
+				{block:Pages}<li><a href="{URL}">{Label}</a></li>{/block:Pages}
+				{block:AskEnabled}<li><a href="/ask" title="Ask us a question">{AskLabel}</a></li>{/block:AskEnabled}
+				{block:SubmissionsEnabled}<li><a href="/submit" title="Contribute your tidbits">{SubmitLabel}</a></li>{/block:SubmissionsEnabled}
 			{/block:HasPages}
-			<a href="/archive/" title="{lang:Browse the archive}">{lang:Archive}</a>&nbsp;&nbsp;&nbsp;
-			<a href="/mobile" title="View the mobile version">{lang:Mobile}</a>&nbsp;&nbsp;&nbsp;
-			<a href="{RSS}" title="{lang:Subscribe via RSS}">{lang:Subscribe}</a>
-			</p>
+				<li><a href="/archive/" title="{lang:Browse the archive}">{lang:Archive}</a></li>
+				<li><a href="/mobile" title="View the mobile version">{lang:Mobile}</a></li>
+				<li><a href="{RSS}" title="{lang:Subscribe via RSS}">{lang:Subscribe}</a></li>
+			</ul>
 
 			<form action="/search" method="get" id="search">
 				<input type="text" class="search-field" name="q" id="q" placeholder="Search TypeCon Snippets" value="" autocomplete="off">
