@@ -4,21 +4,21 @@ A simple Tumblr theme for the TypeCon Snippets tumblelog.
 
 ## About
 
-See this theme in action on the [TypeCon Snippets](http://typecon.tumblr.com/) tumblelog.
+See this theme in action over on [TypeCon Snippets](https://typecon.tumblr.com/).
 
 ## Features
 
 + HTML5 structure and compliance
 + CSS that is minimal and tidy
 + Non-semantic, presentational markup has been beaten into submission
-+ Specify your own [Disqus](http://disqus.com/) shortname
-+ Specify your own [Typekit](https://typekit.com/) kit ID for easy webfont implementation
++ Specify your own [Disqus](https://disqus.com/) shortname
++ Specify your own [Adobe Fonts](https://fonts.adobe.com/) ID for easy web font implementation
 + Clean, valid, and awesome
 
 
 ## Credits
 
-TypeCon for Tumblr is being developed by [Grant Hutchinson](http://splorp.me/) based on portions of [Tersus for Tumblr](https://github.com/splorp/tersus-tumblr/) mixed together with styles inspired by Matt Langer’s eponymous [Langer](http://www.tumblr.com/theme/325) theme.
+TypeCon for Tumblr is being developed by [Grant Hutchinson](https://splorp.me/) based on portions of [Tersus for Tumblr](https://github.com/splorp/tersus-tumblr/) mixed together with styles inspired by Matt Langer’s eponymous [Langer](https://www.tumblr.com/theme/325) theme.
 
 
 ## Licensing

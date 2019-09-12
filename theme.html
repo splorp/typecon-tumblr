@@ -107,8 +107,8 @@
 			{block:IfDisqusShortname}
 			<article class="disqus">
 				<div id="disqus_thread"></div>
-				<script type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/embed.js"></script>
-				<noscript><a href="http://{text:Disqus Shortname}.disqus.com/?url=ref">{lang:View the discussion thread}</a></noscript>
+				<script type="text/javascript" src="https://disqus.com/forums/{text:Disqus Shortname}/embed.js"></script>
+				<noscript><a href="https://{text:Disqus Shortname}.disqus.com/?url=ref">{lang:View the discussion thread}</a></noscript>
 			</article>
 			{/block:IfDisqusShortname}
 		{/block:PermalinkPage}
@@ -159,7 +159,10 @@
 				<input type="text" class="search-field" name="q" id="q" placeholder="Search TypeCon Snippets" value="" autocomplete="off">
 			</form>
 
-			<p>Powered by <a href="http://www.tumblr.com/" title="The effortless way to share anything">Tumblr</a>&nbsp;&nbsp;&nbsp;Themed by <a href="http://www.typostrophe.com/" title="A typographic concern">Typostrophe</a></p>
+			<ul>
+				<li>Powered by <a href="https://www.tumblr.com/" title="The effortless way to share anything">Tumblr</a></li>
+				<li>Themed by <a href="https://typostrophe.com/" title="A typographic concern">Typostrophe</a></li>
+			</ul>
 		</footer>
 	</div>
 	
@@ -174,7 +177,7 @@
 				query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
 		}
 		}
-		document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/{text:Disqus Shortname}/get_num_replies.js' + query + '"></' + 'script>');
+		document.write('<script charset="utf-8" type="text/javascript" src="https://disqus.com/forums/{text:Disqus Shortname}/get_num_replies.js' + query + '"></' + 'script>');
 	})();
 	//]]>
 	</script>
