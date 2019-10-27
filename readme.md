@@ -33,6 +33,7 @@ The TypeCon for Tumblr theme is absolutely free and conveniently licensed under 
 + Changed header and footer navigation from `p` to `ul` because semantics
 + Implemented a touch of `overflow: hidden` to better contain long links
 + Added search field attributes for styling and usability
++ Updated hardcoded links to https
 
 ### 0.1.1 — The “Baby Steps” Release
 
