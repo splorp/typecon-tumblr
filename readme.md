@@ -28,6 +28,13 @@ The TypeCon for Tumblr theme is absolutely free and conveniently licensed under 
 
 ## Version History
 
+### 0.1.3 — The “Anonymous Caller” Release
+
++ Removed author from post metadata
++ Removed obsolete `.notes` class selectors
++ Removed superfluous `p` element enclosing `{PostNotes}`
++ Tidied up avatar alignment and spacing within `{PostNotes}` list
+
 ### 0.1.2 — The “Hide & Seek” Release
 
 + Changed header and footer navigation from `p` to `ul` because semantics
