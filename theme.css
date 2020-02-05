@@ -220,26 +220,9 @@ footer {
 	color: #CCC;
 	}
 
-a .notes {
-	background: none;
-	text-decoration: none !important;
-	}
-
-.notes a {
-	background: none;
-	text-decoration: none !important;
-	}
-
-img .notes {
-	border: 1px solid #999;
-	margin: 0;
-	padding: 3px;
-	}
-
 .notes img {
-	border: 1px solid #999;
-	margin: 0;
-	padding: 3px;
+	border: none;
+    margin: 0.0em 0.3em -0.1em 0.5em;
 	}
 
 .search_query {
